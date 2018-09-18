@@ -1,0 +1,30 @@
+framework module VungleAdvancedAuctionSDK {
+  umbrella header "VungleAdvancedAuctionSDK.h"
+
+  export *
+  module * { export * }
+
+  link framework "Foundation"
+  link framework "UIKit"
+
+  // Add any public headers here.
+  header "VungleAdvancedAuctionSDK.h"
+  header "VGAInterstitial.h"
+  header "VGAAdNetwork.h"
+  header "VGAAdRequestOptions.h"
+  header "VGAError.h"
+  header "VGAReward.h"
+  header "VGAInterstitial.h"
+  header "VGAInterstitialDelegate.h"
+  header "VGARewardedVideoAd.h"
+  header "VGARewardedVideoAdDelegate.h"
+  header "VGAAdNetworkSettings.h"
+  
+  // Mediation for adapters
+  header "VGAInterstitialAdapterProtocol.h"
+  header "VGAInterstitialAdapterDelegate.h"
+  header "VGARewardedVideoAdAdapterProtocol.h"
+  header "VGARewardedVideoAdAdapterDelegate.h"
+  header "VGABidInfo.h"
+  
+}
