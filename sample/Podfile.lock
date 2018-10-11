@@ -1,0 +1,16 @@
+PODS:
+  - Vungle-Advanced-Auction-SDK (1.0.0)
+
+DEPENDENCIES:
+  - Vungle-Advanced-Auction-SDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Vungle-Advanced-Auction-SDK
+
+SPEC CHECKSUMS:
+  Vungle-Advanced-Auction-SDK: ed4dbef802fb3b40b858c9d759809cea036c2f9b
+
+PODFILE CHECKSUM: 01ca6f6633d3dfe60002c9b1b00de94ce646d132
+
+COCOAPODS: 1.5.3
