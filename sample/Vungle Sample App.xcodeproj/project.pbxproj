@@ -36,9 +36,7 @@
 		92E7A13DB246920DACB42471 /* Pods-Vungle Sample AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vungle Sample AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vungle Sample AppTests/Pods-Vungle Sample AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A5D5DE55349018AC40A7BD8 /* Pods-Vungle Sample App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vungle Sample App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vungle Sample App/Pods-Vungle Sample App.release.xcconfig"; sourceTree = "<group>"; };
 		AB601535AC2AD4E1D7C33712 /* Pods-Vungle Sample AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vungle Sample AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vungle Sample AppTests/Pods-Vungle Sample AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		DE8F42351BBB09C7009EC672 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		DE8F42371BBB0BC9009EC672 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DEFCFF601BA34127006414B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E690DB6E9BABA6B531CB08CF /* Pods-Vungle Sample App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vungle Sample App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vungle Sample App/Pods-Vungle Sample App.debug.xcconfig"; sourceTree = "<group>"; };
 		F45D5FC118E0F05300329123 /* Vungle Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vungle Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45D5FCC18E0F05300329123 /* Vungle Sample App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vungle Sample App-Info.plist"; sourceTree = "<group>"; };
@@ -91,8 +89,6 @@
 		F45D5FB818E0F05300329123 = {
 			isa = PBXGroup;
 			children = (
-				DE8F42351BBB09C7009EC672 /* LICENSE.md */,
-				DEFCFF601BA34127006414B2 /* README.md */,
 				F45D5FCA18E0F05300329123 /* Vungle Sample App */,
 				F45D5FEF18E0F05300329123 /* Vungle Sample AppTests */,
 				F45D5FC318E0F05300329123 /* Frameworks */,
