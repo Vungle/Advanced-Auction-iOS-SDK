@@ -8,7 +8,7 @@ The Vungle Advanced Auction iOS SDK supports iOS 8.0 and above, including iOS 11
 
 
 ## Release Notes
-### 6.3.0
+### 1.0.0
 
 ## License
 The Vungle Advanced Auction iOS SDK is available under a commercial license. See the LICENSE file for more info.
