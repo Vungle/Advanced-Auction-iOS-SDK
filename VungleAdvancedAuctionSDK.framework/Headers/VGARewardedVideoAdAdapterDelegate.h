@@ -36,6 +36,17 @@
  */
 -(VGAUserConsentInfo *)userConsentInfo;
 
+/**
+ * The view ordinal by session
+ * Here the session means from app start to exit (killed)
+ */
+-(NSUInteger)viewOrdinalBySession;
+
+/**
+ * The view ordinal by day.(from local time 6:00 AM to 6:00 AM next day)
+ */
+-(NSUInteger)viewOrdinalByDay;
+
 
 /**
  * Notifies the delegate that the ad network SDK did set up.

@@ -26,13 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) BOOL muted;
 
 /**
- * This is an integer indicating the order in which this ad was shown in the game session.
- * (for example, if two ads were already shown in this session, and this ad from Vungle was then shown third, pass in '3').
- * Note: This may not be valid for some ad networks.
- */
-@property(nonatomic, assign) NSUInteger ordinal;
-
-/**
  * Ad networks may have additional parameters they accept. To pass these parameters to them, create
  * the ad network settings object for that network, fill in the parameters, and add it here. The
  * ad network should have a header defining the interface for the 'settings' object to create. All
