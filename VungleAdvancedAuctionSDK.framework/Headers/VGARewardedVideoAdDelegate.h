@@ -31,11 +31,22 @@ didRewardUserWithReward:(VGAReward *)reward;
 - (void)rewardedVideoAdDidLoad:(VGARewardedVideoAd*)rewardedVideoAd
                 withAdNetwork:(VGAAdNetwork *)adNetwork;
 
+
+/**
+ * Indicates that there is at least one ad network did load the the rewarded video ad.
+ */
+- (void)rewardedVideoAdDidLoad:(VGARewardedVideoAd*)rewardedVideoAd;
+
 /**
  * Indicates that there is an ad network failed to load the rewarded video ad.
  */
 - (void)rewardedVideoAd:(VGARewardedVideoAd*)rewardedVideoAd
  didFailToLoadWithError:(NSError*)error withAdNetwork:(VGAAdNetwork *)adNetwork;
+
+/**
+ * Indicates that all ad networks failed to load the the rewarded video ad.
+ */
+- (void)rewardedVideoAd:(VGARewardedVideoAd*)rewardedVideoAd didFailToLoadWithError:(NSError*)error;
 
 /**
  * Notifies the delegate that the rewarded video ad would be presented.

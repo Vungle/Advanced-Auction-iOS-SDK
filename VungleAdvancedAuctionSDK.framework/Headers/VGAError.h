@@ -59,6 +59,9 @@ typedef NS_ENUM(NSInteger, VGAErrorCode) {
     /// The backend service is disabled for now.
     /// This error maybe caused by limited resources of the backend or some problem of the publisher's account.
     kVGAErrorServiceDisabled,
+    
+    /// All Ad networks failed to load
+    kVGAErrorAllAdsLoadFailed,
 };
 
 NS_ASSUME_NONNULL_END

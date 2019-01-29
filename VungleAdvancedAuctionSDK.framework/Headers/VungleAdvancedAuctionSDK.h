@@ -1,7 +1,7 @@
 //
 //  VungleAdvancedAuctionSDK.h
 //  Vungle Advanced Auction SDK
-//  SDK Version: 1.1.0
+//  SDK Version: 1.2.0
 //
 //  Copyright (c) 2013-Present Vungle Inc. All rights reserved.
 //

@@ -28,10 +28,20 @@ NS_ASSUME_NONNULL_BEGIN
              withAdNetwork:(VGAAdNetwork *)adNetwork;
 
 /**
+ * Indicates that there is at least one ad network did load the the intersititial.
+ */
+- (void)interstitialDidLoad:(VGAInterstitial*)interstitial;
+
+/**
  * Indicates that there is an ad network failed to load the interstitial.
  */
 - (void)interstitial:(VGAInterstitial*)interstitial
 didFailToLoadWithError:(NSError*)error withAdNetwork:(VGAAdNetwork * _Nullable)adNetwork;
+
+/**
+ * Indicates that all ad networks failed to load the interstitial.
+ */
+- (void)interstitial:(VGAInterstitial*)interstitial didFailToLoadWithError:(NSError*)error;
 
 /**
  * Notifies the delegate that the interstitial would be presented.
