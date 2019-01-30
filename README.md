@@ -25,7 +25,7 @@ The Vungle Advanced Auction iOS SDK supports iOS 8.0 and above, including iOS 12
 * Add bidding feature 
 * Ad report feature support
 * Add logging service feature
-* Support 7 ad netowrks
+* Support 7 ad netowrks: Vungle, InMobi, AdMob, Facebook, AppLovin, MoPub and Unity
 
 ## License
 The Vungle Advanced Auction iOS SDK is available under a commercial license. See the LICENSE file for more info.
