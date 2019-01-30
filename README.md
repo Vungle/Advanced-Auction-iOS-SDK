@@ -21,6 +21,12 @@ The Vungle Advanced Auction iOS SDK supports iOS 8.0 and above, including iOS 12
 * Update GoogleMobileAds.framework from 7.31.0 to 7.35.2.0
 * Update FBAudienceNetwork.framework from 4.27.0.0 to 5.1.0.0
 
+### 1.0.0
+* Add bidding feature 
+* Ad report feature support
+* Add logging service feature
+* Support 7 ad netowrks
+
 ## License
 The Vungle Advanced Auction iOS SDK is available under a commercial license. See the LICENSE file for more info.
 
